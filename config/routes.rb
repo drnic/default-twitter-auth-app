@@ -1,4 +1,14 @@
 ActionController::Routing::Routes.draw do |map|
+  map.root :controller => 'home', :action => 'index'
+
+  map.oauth_callback  '/oauth_callback',  :controller => 'session', :action => 'oauth_callback'
+
+  map.session_destroy  '/sessions/destroy',  :controller => 'session', :action => 'destroy'
+
+  map.session_create  '/sessions/create',  :controller => 'session', :action => 'create'
+
+  map.login  '/login',  :controller => 'session', :action => 'new'
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

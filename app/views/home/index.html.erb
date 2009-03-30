@@ -1,0 +1,8 @@
+<%= link_to "Protected", :controller => :protected %>
+
+<h3>Recent users (<%= User.count %>)</h3>
+<ul>
+<% for user in User.all -%>
+  <li><%= image_tag(user.profile_image_url) %><%= user.name %> (<%= link_to h(user.login), "http://twitter.com/#{h user.login}" %>)</li>
+<% end -%>
+</ul>

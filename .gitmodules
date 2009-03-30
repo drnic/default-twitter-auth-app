@@ -1,3 +1,30 @@
 [submodule "vendor/plugins/twitter_auth"]
 	path = vendor/plugins/twitter_auth
 	url = git://github.com/mbleigh/twitter-auth.git
+[submodule "vendor/plugins/will_paginate"]
+	path = vendor/plugins/will_paginate
+	url = git://github.com/mislav/will_paginate.git
+[submodule "vendor/plugins/state_machine"]
+	path = vendor/plugins/state_machine
+	url = git://github.com/pluginaweek/state_machine.git
+[submodule "vendor/plugins/rails_footnotes"]
+	path = vendor/plugins/rails_footnotes
+	url = git://github.com/josevalim/rails-footnotes.git
+[submodule "vendor/plugins/machinist"]
+	path = vendor/plugins/machinist
+	url = git://github.com/notahat/machinist.git
+[submodule "vendor/plugins/paperclip"]
+	path = vendor/plugins/paperclip
+	url = git://github.com/thoughtbot/paperclip.git
+[submodule "vendor/plugins/cucumber"]
+	path = vendor/plugins/cucumber
+	url = git://github.com/aslakhellesoy/cucumber.git
+[submodule "vendor/plugins/email-spec"]
+	path = vendor/plugins/email-spec
+	url = git://github.com/drnic/email-spec.git
+[submodule "vendor/plugins/rspec"]
+	path = vendor/plugins/rspec
+	url = git://github.com/dchelimsky/rspec.git
+[submodule "vendor/plugins/rspec-rails"]
+	path = vendor/plugins/rspec-rails
+	url = git://github.com/dchelimsky/rspec-rails.git

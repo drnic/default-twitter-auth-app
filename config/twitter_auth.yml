@@ -1,0 +1,24 @@
+development:
+  strategy: oauth
+  oauth_consumer_key: 2n0k4PbcqIYh1wLvcL1d0A
+  oauth_consumer_secret: N9xMxIupYTvWDIbZvjS409z414jgBXkbyAFF4pU
+  base_url: "https://twitter.com"
+  api_timeout: 10
+  remember_for: 14 # days
+  oauth_callback: "http://default-twitter-auth-app.local/oauth_callback"
+test:
+  strategy: oauth
+  oauth_consumer_key: 2n0k4PbcqIYh1wLvcL1d0A
+  oauth_consumer_secret: N9xMxIupYTvWDIbZvjS409z414jgBXkbyAFF4pU
+  base_url: "https://twitter.com"
+  api_timeout: 10
+  remember_for: 14 # days
+  oauth_callback: "http://default-twitter-auth-app.local/oauth_callback"
+production:
+  strategy: oauth
+  oauth_consumer_key: 2n0k4PbcqIYh1wLvcL1d0A
+  oauth_consumer_secret: N9xMxIupYTvWDIbZvjS409z414jgBXkbyAFF4pU
+  base_url: "https://twitter.com"
+  api_timeout: 10
+  remember_for: 14 # days
+  oauth_callback: "http://default-twitter-auth-app.mocra.com/oauth_callback"
