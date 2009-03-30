@@ -1,0 +1,28 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: default_twitter_auth_app_development
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+test:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: default_twitter_auth_app_test
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: default_twitter_auth_app_production
+  pool: 5
+  username: root
+  password: 
